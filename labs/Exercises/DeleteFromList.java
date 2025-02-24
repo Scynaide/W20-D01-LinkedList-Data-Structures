@@ -17,9 +17,6 @@ public class DeleteFromList {
             }
         }
 
-        /* Given a key, deletes the first
-        occurrence of key in
-        * linked list */
         void deleteNode(int key)
         {
             // Store head node
@@ -46,7 +43,7 @@ public class DeleteFromList {
             prev.next = temp.next;
         }
 
-        /* Inserts a new Node at front of the list. */
+
         public void push(int new_data)
         {
             Node new_node = new Node(new_data);
@@ -54,8 +51,7 @@ public class DeleteFromList {
             head = new_node;
         }
 
-        /* This function prints contents of linked list starting
-        from the given node */
+
         public void printList()
         {
             Node tnode = head;
@@ -65,9 +61,7 @@ public class DeleteFromList {
             }
         }
 
-        /* Driver program to test above functions. Ideally this
-        function should be in a separate user class. It is kept
-        here to keep code compact */
+
         public static void main(String[] args)
         {
             DeleteFromList list = new DeleteFromList();
